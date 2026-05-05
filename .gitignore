@@ -1,0 +1,74 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ----------------------
+# Virtual Environment
+# ----------------------
+myenv/
+venv/
+env/
+.venv/
+
+# ----------------------
+# Jupyter Notebook
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# VS Code / IDE
+# ----------------------
+.vscode/
+.idea/
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# Environment variables
+# ----------------------
+.env
+
+# ----------------------
+# Data files (optional)
+# ----------------------
+*.csv
+*.json
+*.xlsx
+
+# If you WANT to keep sample data, comment above and use:
+# !data/sample.csv
+
+# ----------------------
+# ML Models
+# ----------------------
+*.pkl
+*.joblib
+
+# ----------------------
+# Streamlit cache
+# ----------------------
+.streamlit/
+
+# ----------------------
+# FastAPI / Uvicorn
+# ----------------------
+*.pid
+
+# ----------------------
+# Build / dist
+# ----------------------
+build/
+dist/
+*.egg-info/
